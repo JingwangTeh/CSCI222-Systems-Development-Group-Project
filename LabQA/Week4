@@ -1,0 +1,8 @@
+How should version control be used within the inception/elaboration phase? Example: Google docs
+Cannot consider google docs, use git for documentation
+
+How should Use Case be organized?
+Use case organized based on subsystem or user-centric
+
+How does user administrator determine the user group that he should promote the user to?
+Only user administrator can determine roles
