@@ -1,0 +1,15 @@
+How does the bug tracking system integrate with the organization’s system?
+The bug tracking system is a standalone system, therefore, there is no need to take into consideration of the effects of the implementation of a bug tracking system within another organization.
+
+Who manages the user groups within the system?
+User Administrator manages the user groups and can promote or demote users to another user group.
+(Required) There should be at least One user administrator at all times.
+(Optional) User Administrator can have a different login page separated from the normal users.
+(This user group is created by the technicians)
+
+Upon registration, how do they choose which user group they belong to?
+After registration, all users are considered bug reporters and only have access to functionalities given to bug reporter user group.
+It is up to the user administrator group to promote or demote the user to another user group.
+
+Who can access the database?
+There should be no direct access to the database by any of the user group including user administrator. It is up to the technician to manage the database.
