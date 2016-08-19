@@ -1,0 +1,34 @@
+INTRODUCTION
+PURPOSE
+
+This document provides an overall description of the bug tracking system, the intended audience, and design constraints that comes with developing this product. It also describes the functionality of the product as well as its nonfunctional requirements, and other possible factors necessary to understand the domain of the software system that we are to develop.
+
+SCOPE
+The software system to be developed is a bug tracking system aimed to be produced and sold by the client to a third party organization. 
+
+This bug tracking system will serve a general category of users, as specified by the client, regardless of third-party organization that the system is being sold to, such as:
+Public User
+Bug Reporter, Triage, Developer, and Reviewer
+User Administrator
+
+The purpose of the user administrator is to manage the existing user group by promoting or demoting users from a user group to another user group. On the other hand, the public user can participate with the system without the need to create an account, such as viewing bug reports, but with read-only privilege.
+
+Users like bug reporter, triager, developer, and reviewer are involved with the general flow of bug processing tasks within the bug tracking system. The flow of bug processing task starts from bug reporting and bug assignment, to bug solving, bug review and assessment, and then finally bug report completion.
+
+In order to better manage the functions that the systems provide and to cater to the different types of users listed, the bug tracking system is divided into six correlated modules or subsystems:
+Account Management System manages user profiles of users registered with the bug tracking system
+User Management System manages user group and their read/write access, and is used by the user administrator
+Bug Reporting and Transfer System manages bug submission, bug description, bug status, and user comments by bug reporters, and allows Triage to assign the bug to the respective developers
+Bug Management and Review System manages work distribution and communication among developers in solving a bug, and allows the bug to be submitted to the bug reviewer for review
+Search System manages search query by users
+Report Generation System generates statistical reports based on number of bugs reported and solved
+
+DEFINITIONS, ACRONYMS, AND ABBREVIATIONS
+
+REFERENCES
+SRS Sample - SoftwareRequirementsSpecification.pdf
+
+OVERVIEW
+The rest of the SRS is divided into 2 main sections:
+Overall Description section - describes general factors affecting the development of the system and its requirements
+Specific Requirements section - consists of all software requirements that is required of the software system in order to satisfy the users’ needs.
