@@ -1,42 +1,63 @@
 Week 3 Meeting #1 - 12 August 2016
 
 Summary
-This is our group’s first meeting. The goal for this first meeting is to ensure group and project structure integrity by assigning roles and identifying our project priorities. 
+This is our group’s first meeting. The goal for this first meeting is to ensure group and project structure integrity by assigning 
+roles and identifying our project priorities. 
 
-Aside from that, we discuss about information gathered during the lab session in week 2 & 3, and also the viability and necessity of the options available for architecture, software, and other tools. 
-Through the information we gathered from the lab session, we know that the client will sell the software system that we build to their clients. It has been highlighted by the client that our system is intended to be bought at a lower cost in order to be sold to their client at a higher price to generate revenue from it.
-We have discussed that we should implement the system in a web-based GUI format.
-However, we consider that C++ might not be the programming language that we want to use, as Java has better library support for implementing a web-based system. However, most of us have better understanding on C++ so we have yet to determine the programming language that we want to use.
+Aside from that, we discuss about information gathered during the lab session in week 2 & 3, and also the viability and necessity of 
+the options available for architecture, software, and other tools. 
 
-We also give our ideas on several points of the project through a brainstorming session, involving the given examples and existing systems like bugzilla, and come up with ways to approach and implement them for our system accordingly.
-We have discussed that the User Interface(UI) of the system and its layout should have a minimalistic design.
-The system’s homepage should contain functionality like search bug catalogue, and submit bug report. The header bar on the homepage should include shortcuts to register a new account, login, and password retrieval, as well as shortcuts to other pages within the system.
-The position of the header bar should be fixed so that users can easily navigate around the system without having to scroll all the way up.
-We have also discussed the viability of having our system support multiple products, each with its own category within the bug tracking system.
+  Through the information we gathered from the lab session, we know that the client will sell the software system that we build to 
+  their clients. It has been highlighted by the client that our system is intended to be bought at a lower cost in order to be sold 
+  to their client at a higher price to generate revenue from it.
+  
+  We have discussed that we should implement the system in a web-based GUI format.
+  
+  However, we consider that C++ might not be the programming language that we want to use, as Java has better library support for 
+  implementing a web-based system. However, most of us have better understanding on C++ so we have yet to determine the programming 
+  language that we want to use.
+
+We also give our ideas on several points of the project through a brainstorming session, involving the given examples and existing 
+systems like bugzilla, and come up with ways to approach and implement them for our system accordingly.
+  
+  We have discussed that the User Interface(UI) of the system and its layout should have a minimalistic design.
+
+  The system’s homepage should contain functionality like search bug catalogue, and submit bug report. The header bar on the homepage 
+  should include shortcuts to register a new account, login, and password retrieval, as well as shortcuts to other pages within the 
+  system.
+  
+  The position of the header bar should be fixed so that users can easily navigate around the system without having to scroll all the 
+  way up.
+  
+  We have also discussed the viability of having our system support multiple products, each with its own category within the bug 
+  tracking system.
 
 We were all notified of the current project documentation structure and templates as well.
 
-Lastly, project priorities until the next meeting was discussed and then we distribute the required tasks to each group member and focused on ensuring each other’s understanding on the current project goal until the next meeting.
-Our project priority is set on gathering further requirements from the client in week 4 lab session in order to expand on our Software Requirement Specification (SRS), provide use case according to requirements gathered, analyzing risks and countermeasures, and to find out the details required for the topic on detailed plans for whole project.
+Lastly, project priorities until the next meeting was discussed and then we distribute the required tasks to each group member and 
+focused on ensuring each other’s understanding on the current project goal until the next meeting.
 
+Our project priority is set on gathering further requirements from the client in week 4 lab session in order to expand on our 
+Software Requirement Specification (SRS), provide use case according to requirements gathered, analyzing risks and countermeasures, 
+and to find out the details required for the topic on detailed plans for whole project.
 
 Agenda
-Group-related
-Assign Roles to Group Members.
+  Group-related
+    Assign Roles to Group Members.
 
-Project Content
-Discuss about Information provided by Client during the Lab Session in Week 2 and Week 3.
-Discuss on Existing Architecture, Environment, Software and Tools that are necessary.
-Brainstorm Ideas on Ways to Approach and Implement the System according Project Outline.
-Ensure Templates for Documentation are Known and Used by All Members.
+  Project Content
+    Discuss about Information provided by Client during the Lab Session in Week 2 and Week 3.
+    Discuss on Existing Architecture, Environment, Software and Tools that are necessary.
+    Brainstorm Ideas on Ways to Approach and Implement the System according Project Outline.
+    Ensure Templates for Documentation are Known and Used by All Members.
 
-Project Direction
-Discuss Project Priorities between Current Meeting and the Next Meeting and Assign Tasks to Each Group Member.
-
+  Project Direction
+    Discuss Project Priorities between Current Meeting and the Next Meeting and Assign Tasks to Each Group Member.
 
 Report
-Urgent Items
-There were no urgent items to report in this meeting as this is the first meeting we held.
+  Urgent Items
+    There were no urgent items to report in this meeting as this is the first meeting we held.
 
-Non-urgent Items and Other Reports
-There were no non-urgent items or other reports to report in this meeting as this is the first meeting we held.
+  Non-urgent Items and Other Reports
+    There were no non-urgent items or other reports to report in this meeting as this is the first meeting we held.
+
