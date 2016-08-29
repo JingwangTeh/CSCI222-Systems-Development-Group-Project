@@ -1,0 +1,27 @@
+INCEPTION PHASE
+This phase is the planning phase, where the business case is established, scope of the project is determined through the Software Requirement Specification, and the initial project cost and schedule is estimated. A detailed plan for the whole project is also produced in order to determine the tasks required to achieve the desired goal of the project.
+
+The outcome of the inception phase includes:
+A Complete and Detailed Business Case
+A Complete and Detailed Software Requirement Specification consisting of Functional Requirements, Non-functional Requirements, and Use Case.
+A Complete and Detailed Domain Model
+A Complete and Detailed Project Cost and Schedule
+A Complete and Detailed Risks and Countermeasures
+A Complete and Detailed Candidate Architecture
+A Complete and Detailed Project Plan of Inception, Elaboration, and Construction Phase
+ELABORATION PHASE
+In this phase, the system architecture of the project is revised, validated and established. The existing use case is refined and class diagrams, sequence diagrams, and interaction diagrams are created to support the use case. Interface and Database designs are also created. Finally, a more detailed construction plan is produced.
+
+The outcome of the elaboration phase should include:
+A Revised System Architecture
+Class Diagram
+Sequence Diagram
+Interaction Diagram
+Interface Design
+Database Design
+Detailed Construction Plan
+CONSTRUCTION PHASE
+This is the implementation phase where majority of the coding is done to implement both front-end and back-end of the system according to requirements from inception phase and designs from the elaboration phase. Requirements will be constantly referred so as to ensure the features being implemented into the system meets the client’s needs.
+
+The outcome of the construction phase will include:
+A complete system with both front-end, back-end, and database implemented to support requirements specified in the Software Requirement Specification.

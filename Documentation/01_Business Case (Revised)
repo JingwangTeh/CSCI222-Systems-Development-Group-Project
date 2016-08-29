@@ -1,0 +1,26 @@
+BUSINESS CASE
+
+
+BUSINESS CONTEXT
+The case of this project is to design a bug tracking system that has features similar to that of the bug tracking system "Bugzilla", 
+developed by Mozilla. Our intention is to develop a web based system, where users may browse, report, and comment on bugs, as well as 
+giving companies using this software a way to assign bugs to their developers, and a way for patches to be reviewed before they are 
+merged to the main software product. 
+
+
+USER AND TARGETED AUDIENCE
+The company that we are developing this software system for has the intention to use this system as a blank slate, which will then be 
+sold to other companies that require a bug tracking system for their own software products. We shall work closely with the client to ascertain details for this project that aren't covered in the project outline, and develop models to assist in understanding the project development schedule.
+
+Essentially there is a duality in the purpose this product serves; firstly for the client whom we are developing the system for, but also 
+for the clients of our client who will be using this bug tracking system for their own internal or public projects.
+
+
+BUSINESS JUSTIFICATION
+This system will then allow the company who is employing our services to make a profit on the software that we are contracted to develop 
+for them. As it is, this software belongs to our customer, and after the project is completed we will only be responsible for maintenance
+of the system. Furthermore, the clients of our client will be able to track the bugs within their software project and allow users to make comments on the bugs reported by all users.
+
+Also, our bug tracking system will be independent of the organization’s system of the entity that our client decides to sell the software 
+system to, as our system does not integrate into any existing system but to support it separately by submitting bug reports and going 
+through the bug life cycle using the bug tracking system.
