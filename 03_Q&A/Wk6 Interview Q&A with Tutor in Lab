@@ -1,0 +1,73 @@
+Week 6 Q&A with Tutor in Lab
+Question #1
+Category: Registration
+Questions
+Is there a need for password reset as a use case of the public user?
+Answers
+There is no need for password reset
+
+Question #2
+Category: User Group
+Questions
+What other tasks can registered user do?
+Answers
+Registered users can subscribe to a bug report that is not theirs.
+
+Question #3
+Category: User Group
+Questions
+What is the unit of focus in the bug tracking system? Bug or Bug Report
+Answers
+All bug reports describing a bug is considered duplicate and should be merged under one branch, where the bug report that was submitted earliest will be the master bug report.
+Therefore, the unit of focus is on the bug itself, that comprises of many bug reports.
+
+Question #4
+Category: User Group
+Questions
+Expanding on triager, what other tasks can users in this user group do?
+Answers
+Triagers can:
+-review bug report and make sure bug report has technical information
+-add technical keywords to bug report
+-assign bug to developer
+Triager should also have the technical knowledge, that helps him:
+-guess the components of bug report
+-identify priority/severity of bug
+
+Question #5
+Category: User Group
+Questions
+Does the developer need a download code function? What other tasks can developer do?
+Answers
+There is no need for a download code function for developer.
+Developer can upload bug fixes by attaching it in comments. These comments will be given priority when showing comments.
+Expanding on the tasks that developers can do:
+-A collaboration/communication channel between developer, such as messaging, can be considered as a stretch goal.
+
+Question #6
+Category: Reputation
+Questions
+How are reputations for bug reporter and developer calculated?
+Answers
+It is calculated automatically, based on factors set by administrator, NOT set manually. Factors include:
+-bug report importance
+-over 180 characters
+-file attached
+-priority
+Note: developers can get negative reputation
+
+Question #7
+Category: Reputation
+Questions
+How will the factors for the reputation system work?
+Answers
+The factors can be hardcoded, and can be set by administrator.
+
+Question #8
+Category: Domain Model
+Questions
+Is the class diagram required, and what is the difference between class diagram and domain model?
+Answers
+Class diagram is not required as it is only needed in elaboration phase, however, domain model is necessary in inception phase.
+Domain model is an open design describing the major classes.
+
