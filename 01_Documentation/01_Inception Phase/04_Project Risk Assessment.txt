@@ -1,15 +1,16 @@
 PROJECT RISK ASSESSMENT
+
 Unrestricted Bug Reporting
 Description: Bug reports can be submitted by a registered user. However, the quality of the bug report is not guaranteed and the system can be subjected to bug report spamming, where bug reports are incorrect and are the results of mental frustration of the users from dealing with the bugs.
-Countermeasure: Such reports need to be handled by restricting the number of bug reports based on the reputation that the user has, or based on a strict number set by the user administrator.
+Countermeasure: Such reports can be handled by restricting the number of bug reports submitted based on the reputation that the user has, or based on a strict number set by the user administrator.
 
 Excessive Accumulation of Bug Reports Over Time
 Description: As the system is utilized over time, the number of bug reports will accumulate, and the system may be slowed down due to a large number of entries in the database.
-Countermeasure: This can be dealt with by categorizing and indexing bug reports, and the triager can transfer bug reports into the correct categories.
+Countermeasure: This can be dealt with by creating a scalable database model, categorizing and indexing bug reports in the database, and the triager can manage and merge bug reports into the correct categories.
 
 Complex Bug Reports that Describes Multiple Bugs
 Description: Bug reports can potentially be associated with multiple types of bugs, whether it be related or non-related, and a complex one can make it difficult to be managed and solved.
-Countermeasure: It is up to the triager to break down the bug report into multiple smaller reports so it can be easily assigned to the respective developer to be solved. It is also possible to implement a tagging system that organizes bug reports into multiple distinct sections.
+Countermeasure: It is up to the triager and his technical expertise to break down the bug report into multiple smaller reports so it can be easily assigned to the respective developer to be solved. It is also possible to implement a tagging system that organizes bug reports into multiple distinct sections.
 
 Requirement Changes
 Description: As the system gets developed, additional features are suggested based on requirements gathered after the inception phase, due to the requirement changes or some features that was not identified clearly at the early phases.
@@ -31,9 +32,7 @@ Data Loss
 Description: Database failure is a potential risk to the system’s functionalities. If the host computer storing the database encounter problems like hard drive failure or data corruption, the system will not be able to function normally. It is also a problem if the cloud backup service or version control software storing our documents or server data becomes unavailable.
 Countermeasure: To solve this, we will backup our database frequently and store copies of it in multiple computers as well as in external hard drives separated from the main computer while using version control to synchronize the various data in the multiple computers.
 
-
-
 Miscommunication and Language Barrier
 Description: Being in a group of various cultural background can make communication difficult and may result in miscommunication among team members.
-Countermeasure: We can overcome this by communicating in a more concise and simple manner, while making sure everyone understands the topic before proceeding the next.
-
+Countermeasure: We can overcome this by communicating in a more concise and simple manner, while making sure everyone understands the topic before proceeding to the next.
+
