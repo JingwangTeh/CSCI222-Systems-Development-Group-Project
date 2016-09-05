@@ -1,0 +1,18 @@
+System Interface
+
+The App is to be developed as a web-based application that can be to run at localhost to provide bug related services.
+
+The clients can log into the system from the PC which also act as a server and then interact with the system and provides services such as login, report bugs, triage bugs. Moreover, the system could manage the bug¡¯s life cycle.
+
+The Web Server which is also the client machine allows client to connect the system and accept their requests, retrieve the system database, then return and display the corresponding web page according to client¡¯s request.
+
+The database is used to store the system¡¯s user profiles and the bug¡¯s information.
+
+
+User Interfaces
+
+The user interfaces provided to client will be a web page. The home web page will be very straight forward. It will have a search bar for searching bugs in the middle of the web page. There¡¯s a navigation bar at the top of the home page. Users could login, navigate to the other web pages by click the icon in the navigation bar. 
+
+The system administrator could also login into the system via the web page like other users but have higher access to the system. The logged in page for the administrator will be a little different with the normal user logged in page. It will display a table which will contains the users¡¯ information so that the administrator could manage the normal users¡¯ information. 
+
+The database we used in MySQL, all accesses to the database is performed through GUIs provides by the system. 

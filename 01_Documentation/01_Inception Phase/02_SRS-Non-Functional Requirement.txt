@@ -1,0 +1,225 @@
+2.3.2 NON-FUNCTIONAL REQUIREMENTS
+Requirement #: NREQ_01
+Requirement Type:
+Reliability
+Use Case #: None.
+Description: The system should be functional 24 hours a day, and 7 days a week, excluding maintenance, which should take no longer than 1 hour.
+Rationale: All users want to able to access system functionalities at all times, to avoid loss of productivity from lack of access to bug reports.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: All users can access any system functionalities at all times (24 hours a day, 7 days a week)
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_02
+Requirement Type:
+Performance
+Use Case #: None.
+Description: The system should respond to user action within 7 seconds.
+Rationale: All users want confirmation of their actions to the system
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: All 
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_03
+Requirement Type:
+Performance
+Use Case #: None.
+Description: The system search functionality should return the queried results within 10 seconds.
+Rationale: All users want to know the results of the search quickly so he can select the result or proceed with another search, instead of waiting for search results to appear.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: Search results should display on screen within 1 minute.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_04
+Requirement Type:
+Performance
+Use Case #: None.
+Description: The system should automatically generate new statistical report every 1 hour.
+Rationale: The users want to view a report that is always up-to-date.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: Report data displayed on screen changes every 1 hour to reflect the updated data.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_05
+Requirement Type:
+Efficiency
+Use Case #: None.
+Description: The system should support at least 100 user profiles being stored in the database.
+Rationale: The system needs to be capable of supporting at least 100 users using the system regardless of user group
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: The system database is able to store 100 user profiles, and profile data on the user profile screen can be retrieved by the system and displayed to the user within 7 seconds.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_06
+Requirement Type:
+Efficiency
+Use Case #: None.
+Description: The system should support at least 1000 bug reports being stored in the database.
+Rationale: All users are want to submit more than 10 bug reports each without being restricted to the total number of bug reports they can submit
+Source: Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: The number of bug reports in the database exceeds 1000 and searching efficiency to find individual bug reports does not take more than 10 seconds.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_07
+Requirement Type:
+Usability
+Use Case #: None.
+Description: The system should be consistent in all its user interfaces according to the Prototyped User Interface
+Rationale: To provide the users a better user experience and conformity to existing knowledge about the system’s interface.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: All pages in the system follows the interface provided in the prototyped user interface.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_08
+Requirement Type:
+Usability
+Use Case #: None.
+Description: The system needs to provide users with built-in explanations of system features to help users learn to use the system, and are accessible by all users.
+Rationale: To allow the users to quickly pick up and use the system.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: The built-in explanations are accessible by all types of users, and explanations are displayed within 5 seconds.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_09
+Requirement Type:
+Usability
+Use Case #: None.
+Description: The system should not require any specific technical knowledge of the system to be able to use it, as long as the users are computer-literate
+Rationale: The users should not require any training to use the system, so it can be used by any organization that the client decides to sell the system to, without the need to retrain personnels.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: All users are capable of using the system after 1 day of exploring and using the system.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_09
+Requirement Type:
+Usability
+Use Case #: None.
+Description: The system should use English in all its User Interfaces.
+Rationale: All users want to utilize their main communication language between each other while working in an organizational environment when using the system.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: The system user interfaces are all in English.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_10
+Requirement Type:
+Usability
+Use Case #: None.
+Description: The system should follow the W3C standards for its HTML front-end files.
+Rationale: To conform with the international standards.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: The html front-end files are all validated by W3C markup validator and have 0 errors.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_11
+Requirement Type:
+Usability
+Use Case #: None.
+Description: The system should not require any specific technical knowledge of the system to be able to use it, as long as the users are computer-literate
+Rationale: The users should not require any training to use the system, so it can be used by any organization that the client decides to sell the system to, without the need to retrain personnels.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: All users are capable of using the system after 1 day of exploring and using the system.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_12
+Requirement Type:
+Reliability
+Use Case #: None.
+Description: The system should be able to recover from system failure within 24 hours.
+Rationale: The downtime of the system must be minimized to ensure minimal impact on organization’s productivity during the downtime.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: The system failure is resolved within 24 hours.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_13
+Requirement Type:
+Reliability
+Use Case #: None.
+Description: The system should support up to 50 users at any time.
+Rationale: The system should be capable of withstanding the load from as many as 50 users interacting with the system.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: The system allows 50 concurrent users at any time.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_14
+Requirement Type:
+Security
+Use Case #: None.
+Description: The system needs to log the users out after 15 minutes of idling.
+Rationale: To prevent users from getting their accounts accessed by unauthorized individuals in their proximity when they are not around.
+Source: Public User, Bug Reporter, Triager, Developer, Reviewer, Administrator
+Fit Criterion: The system logs the user out after 15 minutes of idling.
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+
+Requirement #: NREQ_15
+Requirement Type:
+Performance
+Use Case #: None.
+Description: The system should be able to calculate an appropriate reputation for bug reporters and developers within 7 seconds of submitting the bug report or bug fixes
+Rationale: The bug reporter and developer wants to know their performance for their submission of bug report or fix without waiting for too long.
+Source: Bug Reporter, Developer
+Fit Criterion: The system is able to calculate the reputation for bug reporter and developer within 7 seconds
+Dependencies: None
+Rank of Importance: Essential
+Supporting Materials: None
+History:
+Created by Jingwang Teh - 29 August 2016
+

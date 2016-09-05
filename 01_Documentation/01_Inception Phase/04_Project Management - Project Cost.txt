@@ -1,0 +1,11 @@
+PROJECT COST
+The estimation of the cost for the development of this software product will use the Constructive Cost Model (COCOMO) to calculate the amount of effort required for the project, then based on the development time:
+Effort Applied (E) = a(KLOC)b
+                             = 2.4 * (3)1.05
+      	                 = 7.60656462156
+                             = 7.6 man-months
+With this effort spread between 4 people, it should take approximately 1.9 months, or 8.25596 weeks. If we allow time for error or unexpected circumstances, 13 weeks should be ample time to complete the project.  A total cost of $15,000 should ensure that we are paid the appropriate amount for both our analysis and development time. $15,000 / 4 = 3750; 3750 / 8 = 468.75. Hence, the project for the client will cost approximately $468.75 per week for our services of both analysis and development of the new system.
+
+So therefore, by analysing costs of similar projects for a medium sized website, the cost is in fact quite reasonable because of the features and time that will be put into developing this website. Furthermore, the revenue that the client will generate by selling this website software will allow them to make a profit on the cost of hiring us for the development of the software. Finally, due to the nature of the software being developed, the client will have to expect a development cost of this proportion. This is because there must be a great deal of requirements analysis, which takes quite a large amount of time.
+
+Since the bugzilla software is free, the software being developed for the client will include more features and functions compared to that of bugzilla. Otherwise, it would be a waste of time and money to develop a system that has the same features of that which is free of charge. In conclusion, the project cost is reasonable because of the features, time spent on the project, and expertise of the development team which are all factors when considering the final cost of a project. Of course this didn’t factor in the issues that may arise that will cost more money, but this is minimum amount required for the development of  the system.

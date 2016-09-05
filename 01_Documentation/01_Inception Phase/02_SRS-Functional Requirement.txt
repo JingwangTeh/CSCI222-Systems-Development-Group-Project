@@ -1,0 +1,422 @@
+2.3 SPECIFIC REQUIREMENTS
+2.3.1 FUNCTIONAL REQUIREMENTS
+All requirements specified (both functional and nonfunctional) of the system is ranked based on its degree of importance.
+1.             Critical : Highest level of importance. Requirements with this rank are those that reflect the core functionalities of the system and must be implemented in early stages.
+2.             Essential : Medium level of significance. Essential requirements reflect important functionalities and should be added after critical requirements have been implemented.
+3.             Optional : Lowest level of importance. These are stretched goals that the development team has set out. These requirements are to be fulfilled when critical and essential levels of functionalities have been satisfied. 
+2.3.1.1 Account Management System
+This section includes the functionalities that our system provides to the public user and registered user for managing their user account and profile.
+Registration Function
+Requirement #: #F_2.3.1.1_1
+Requirement Type:
+Functional
+Use Case #: #UC_1
+Description: Allow the public user to sign-up to the system. The user need to sign-up with the following information:
+Username
+E-mail address
+Password
+
+Rationale: Allow new user to sign-up to the system to access other functions
+Source: Client
+Fit Criterion: User become registered user to access certain functions
+Dependencies: User must have a valid email address for registration
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.1_2
+Requirement Type:
+Functional
+Use Case #: #UC_1
+Description: Allow user to login into the system to access other functions based on their user type. They need the following information to log in
+User name
+Password
+
+Rationale: User wants to login to the system to access other functions 
+Source: Client
+Fit Criterion: A user is successfully logged in into the system
+Dependencies: User must have a valid user account
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.1_3
+Requirement Type:
+Functional
+Use Case #: #UC_1
+Description: Allow the user to logout from the system
+Rationale: User wants to logout from the system
+Source: Client
+Fit Criterion: A user is successfully logged out from the system
+Dependencies: User must be logged in
+Rank of Importance: Essential
+Supporting Materials: N/A
+History: N/A
+
+
+
+Requirement #: #F_2.3.1.1_4
+Requirement Type:
+Functional
+Use Case #: #UC_1
+Description: Allow user to edit their own personal details on profile. The details include:
+E-mail
+Password
+
+Rationale: User wants to edit their information
+Source: Client
+Fit Criterion: A account is successfully edited
+Dependencies: The account must exist
+Rank of Importance: Essential
+Supporting Materials: N/A
+History: N/A
+
+2.3.1.2 User Management System
+This section includes the functionalities that the system provide to the administrator.
+
+Requirement #: #F_2.3.1.2_1
+Requirement Type:
+Functional
+Use Case #: #UC_1
+Description: Allow administrator to login to the system. For security reason, the admin login page will be different from the user login page
+Rationale: Administrator wants to login to the system
+Source: Administrator
+Fit Criterion: An administrator is successfully logged in to the system
+Dependencies: Administrator must have a admin type account
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.2_2
+Requirement Type:
+Functional
+Use Case #: #UC_5
+Description: Allow administrator to deactivate or activate an user account. Once the account have been deactivated, it cannot be logged in until the admin reactivated it.
+Rationale: Administrator wants to deactivate or activate an user account
+Source: Administrator
+Fit Criterion: An administrator is successfully deactivated or activated a user account
+Dependencies: The target user account must exist
+Rank of Importance: Essential
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.2_3
+Requirement Type:
+Functional
+Use Case #: #UC_5
+Description: Allow administrator to create an user account
+Rationale: Administrator wants to create an user account
+Source: Administrator
+Fit Criterion: An administrator is successfully create an user account
+Dependencies: The target user account must exist
+Rank of Importance: Essential
+Supporting Materials: N/A
+History: N/A
+
+
+
+
+
+
+Requirement #: #F_2.3.1.2_4
+Requirement Type:
+Functional
+Use Case #: #UC_5
+Description: Allow administrator to change the user role. There are four types of user the admin can change
+Developer
+Bug reporter
+Triager
+Reviewer
+
+Rationale: Administrator wants to change the user role
+Source: Administrator
+Fit Criterion: An administrator is successfully change the user role
+Dependencies: The target user account must exist
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.2_5
+Requirement Type:
+Functional
+Use Case #: #UC_5
+Description: Allow administrator to view all the registered user in a list. The user list will be provide a filter for quick search
+Rationale: Administrator wants to view the user
+Source: Administrator
+Fit Criterion: An administrator is successfully view the user of the system
+Dependencies: The admin must logged in
+Rank of Importance: Essential
+Supporting Materials: N/A
+History: N/A
+
+
+Requirement #: #F_2.3.1.2_6
+Requirement Type:
+Functional
+Use Case #: #UC_5
+Description: Allow administrator to track the status of the work that assigned to each developer
+Rationale: Administrator wants to track the work
+Source: Administrator
+Fit Criterion: An administrator is successfully view track list
+Dependencies: There need to be a work that are assigned to a developer
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.2_7
+Requirement Type:
+Functional
+Use Case #: #UC_5
+Description: Allow administrator to change the factor for determining the reputation
+Rationale: Administrator wants to change the factor 
+Source: Administrator
+Fit Criterion: An administrator is successfully change the factor
+Dependencies: The administrator need to be logged in
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+
+
+2.3.1.3 Bug Reporting and Transfer System
+This section include the functionalities that the system provided to the Bug reporter and the Triager. Also a comment function is provided to all user type except the public user
+Requirement #: #F_2.3.1.3_1
+Requirement Type:
+Functional
+Use Case #: #UC_1
+Description: Allow bug reporter to report a bug from the code. They report the bug in a form provide by the system. The following information needed to be included
+Title
+Bugs contain in the code
+
+Rationale: Bug reporter wants to report a bug
+Source: Bug reporter
+Fit Criterion: Bug reporter successfully report a bug
+Dependencies: The bug reporter need to login to the system
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.3_2
+Requirement Type:
+Functional
+Use Case #: #UC_1
+Description: Allow all logged in user to comment on a bug for discussion
+Rationale: Logged in user wants to comment on a bug
+Source: Logged in user
+Fit Criterion: A comment is successfully posted
+Dependencies: The user need to login to the system before they comment on a bug
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.3_3
+Requirement Type:
+Functional
+Use Case #: #UC_2
+Description: Allow triager to manage the quality aspect of a bug. Its including the following aspect:
+To check if the bug is invalid
+To check if the bug is duplicated
+
+Rationale: triager wants to manage the quality aspect a bug
+Source: triager 
+Fit Criterion: The triager have managed the bug
+Dependencies: The reported bug must exist
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.3_4
+Requirement Type:
+Functional
+Use Case #: #UC_2
+Description: Allow triager to check whether the bug is valid or not
+Rationale: Triager wants to check whether the bug is valid or not
+Source: Triager
+Fit Criterion: The triager have validated the bug
+Dependencies: The triager need to implement the requirement #F_#2.3.1.3_3
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+
+
+
+
+Requirement #: #F_2.3.1.3_5
+Requirement Type:
+Functional
+Use Case #: #UC_2
+Description: Allow triager to check whether the bug is duplicated or not
+Rationale: triager wants to check whether the bug is duplicated or not
+Source: triager 
+Fit Criterion: The triager have checked whether the bug is duplicated or not
+Dependencies: The triager need to implement the requirement #F_#2.3.1.3_3
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.3_6
+Requirement Type:
+Functional
+Use Case #: #UC_2
+Description: Allow triager to merge the duplicated bug
+Rationale: Triager wants to merge the duplicated bug
+Source: Triager
+Fit Criterion: The triager have merge the duplicated bug
+Dependencies: The triager need to implement the requirement #F_#2.3.1.3_3
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+
+
+
+
+
+
+Requirement #: #F_2.3.1.3_7
+Requirement Type:
+Functional
+Use Case #: #UC_2
+Description: Allow triager to review the reported bug, he/she can add technical information on it so that the developer can be more easy to work on it
+Rationale: Triager wants to review the reported bug
+Source: Triager
+Fit Criterion: The triager have review the reported bug
+Dependencies: There is a bug that are reported by the reporter
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.3_8
+Requirement Type:
+Functional
+Use Case #: #UC_2
+Description: Allow triager to receive the unsolved bug by the reviewer
+Rationale: Triager wants to receive the unsolved bug
+Source: Triager
+Fit Criterion: The triager have received the unsolved bug
+Dependencies: There is a bug that are transferred by the reviewer
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+
+
+
+
+2.3.1.4 Bug Management and Review System
+This section include the functionalities of the system provided to the developer and the reviewer 
+
+Requirement #: #F_2.3.1.4_1
+Requirement Type:
+Functional
+Use Case #: #UC_3
+Description: Allow developer to receive the bug which is assigned by the triager
+Rationale: Developer wants to receive the bug
+Source: Developer
+Fit Criterion: The developer have received the bug
+Dependencies: There is a bug that are assigned by the triager
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.4_2
+Requirement Type:
+Functional
+Use Case #: #UC_3
+Description: Allow developer to attach the patch on the comment, then the patch will be forwarded to the reviewer to review. The status of the bug will be updated to “Under Review”
+Rationale: Developer wants to upload the patch
+Source: Developer
+Fit Criterion: The developer have uploaded the bug
+Dependencies: There is a bug that are fixed by the developer
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+
+Requirement #: #F_2.3.1.4_3
+Requirement Type:
+Functional
+Use Case #: #UC_4
+Description: Allow reviewer to review the patch the provided by the developer
+Rationale: Reviewer wants to review the patch
+Source: Reviewer
+Fit Criterion: The reviewer have reviewed the patch
+Dependencies: There is a patch that are uploaded by the developer
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.4_4
+Requirement Type:
+Functional
+Use Case #: #UC_4
+Description: Allow reviewer to transfer the patch to the triager if the bug have not been solved
+Rationale: Reviewer wants to transfer the patch
+Source: Reviewer
+Fit Criterion: The reviewer have transferred the patch
+Dependencies: There is a patch that are uploaded by the developer
+Rank of Importance: Essential
+Supporting Materials: N/A
+History: N/A
+
+
+
+
+
+
+2.3.1.5 Search System
+This section include the functionalities of the system provided to all the user in the system to search the bug or browse the bug
+
+Requirement #: #F_2.3.1.5_1
+Requirement Type:
+Functional
+Use Case #: #UC_1
+Description: Allow any users to search for specific bug by keywords
+Rationale: Any users want to search for a bug
+Source: Any users
+Fit Criterion: The user have search for a bug
+Dependencies: There is a bug that can be searched
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+Requirement #: #F_2.3.1.5_2
+Requirement Type:
+Functional
+Use Case #: #UC_1
+Description: Allow any users to browse for a bug
+Rationale: Any users want to browse for a bug
+Source: Any users
+Fit Criterion: The user have browsed for a bug
+Dependencies: There is a bug that can be browsed
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+
+2.3.1.6 Report Generation System
+Requirement #: #F_2.3.1.6_1
+Requirement Type:
+Functional
+Use Case #:
+Description: The system will automatically generate a monthly statistical report. The report included the number of bugs resolved in a week and the best performed reporters and developers
+Rationale: The system will generate the report monthly
+Source: System
+Fit Criterion: The report have been generated
+Dependencies: There is a bug that can be used for the statistical report
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A
+2.3.1.7 Reputation System
+Requirement #: #F_2.3.1.6_1
+Requirement Type:
+Functional
+Use Case #:
+Description: The reputation is used to determine the performance of an user. It’s automatically calculated by the system based on several factors set by the administrator, when the user submits a bug report, and the developer provides a bug fix
+Rationale: The reputation system will measure the performance of bug reporters and developers by calculating the reputation automatically to prevent any ambiguity when determining the “correct” reputation
+Source: System
+Fit Criterion: The reputation of a user gets calculated and updated correctly according to factors set by administrator
+Dependencies: There is a target user to receive the reputation
+Rank of Importance: Critical
+Supporting Materials: N/A
+History: N/A

@@ -1,15 +1,46 @@
+Week 3 Q&A with Tutor in Lab
+Question #1
+Category: Client Information
+Questions
+What types of characteristics should the system have in order to meet the user’s adventurer capitalist organization’s needs?
+Answers
+The system should be open source, customizable, and sellable
+
+Question #2
+Category: Client Information
+Questions
 How does the bug tracking system integrate with the organization’s system?
+Answers
 The bug tracking system is a standalone system, therefore, there is no need to take into consideration of the effects of the implementation of a bug tracking system within another organization.
 
+Question #3
+Category: User Group
+Questions
 Who manages the user groups within the system?
+Answers
 User Administrator manages the user groups and can promote or demote users to another user group.
 (Required) There should be at least One user administrator at all times.
 (Optional) User Administrator can have a different login page separated from the normal users.
 (This user group is created by the technicians)
 
+Question #4
+Category: Registration / User Group
+Questions
 Upon registration, how do they choose which user group they belong to?
+Answers
 After registration, all users are considered bug reporters and only have access to functionalities given to bug reporter user group.
 It is up to the user administrator group to promote or demote the user to another user group.
 
+Question #5
+Category: Database Security
+Questions
 Who can access the database?
+Answers
 There should be no direct access to the database by any of the user group including user administrator. It is up to the technician to manage the database.
+
+Question #6
+Category: Database
+Questions
+Do we create our own catalogue of bugs?
+Answers
+No, a data file will be given for bug descriptions.

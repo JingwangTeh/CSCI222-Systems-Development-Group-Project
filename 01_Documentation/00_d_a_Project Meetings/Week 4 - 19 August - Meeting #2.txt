@@ -1,0 +1,21 @@
+Week 4 Meeting #2 - 19 August 2016
+Summary
+In this second meeting, we have spent most of the time migrating our documents to github for version control. We have also reviewed the Use Case, and improve upon it for review during lab with client. Business Case was also established.
+
+Then, we distribute the tasks to each member to be handled with until the next meeting, including interface for Software Requirement Specifications, and further Use Case and Business Case improvements.
+Agenda
+Project Content
+Establish Business Case.
+Discuss and Review Use Case based on Functional Requirements from Q&A.
+
+Project Direction
+Inform Group Members to Migrate Documents from Google Docs to GitHub for Version Control.
+Assign Tasks to Each Group Member.
+Report
+Urgent Items
+Use Case was incomplete as it requires description to be defined for different scenarios
+
+Non-urgent Items and Other Reports
+Software Requirement Specification - Introduction marked as complete.
+Software Requirement Specification - Overall Description marked as complete.
+

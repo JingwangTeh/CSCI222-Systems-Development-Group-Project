@@ -1,0 +1,123 @@
+Week 4 Q&A with Tutor in Lab
+Question #1
+Category: Project Information
+Questions
+What should be included for the detailed plan for the whole project?
+Answers
+Break into development plans, deliverables, brief descriptions, look at requirements in order to determine plan
+
+Question #2
+Category: Project Information
+Questions
+How should version control be used within the inception/elaboration phase?
+Example: Google docs
+Answers
+Cannot consider google docs, use git for docs
+
+Question #3
+Category: Project Information
+Questions
+How should Use Case be organized?
+Answers
+Use case organized based on subsystem or user-centric
+
+Question #4
+Category: User Interface
+Questions
+What requirements should be considered for the user interface?
+Answers
+The user interface should basically be functional, and as long as it looks okay.
+It is a good idea to implement a way in the user interface to quickly find information.
+
+Question #5
+Category: User Interface
+Questions
+In what way should the bug be displayed?
+Answers
+It does not matter where to show bug descriptions and status, as long as the screen flows well.
+
+Question #6
+Category: User Group
+Questions
+Who can comment on bug reports?
+Answers
+Everyone has the ability to comment, except the public user.
+
+Question #7
+Category: User Group
+Questions
+Who gets to have the final decision regarding the user group that the users are assigned to?
+Answers
+Only user administrator can determine roles, and the final decision is decided by the user administrator.
+
+Question #8
+Category: User Group
+Questions
+Can user administrator delete an account?
+Answers
+User administrator can deactivate user account.
+It is a bad idea to delete the account.
+
+Question #9
+Category: Reputation
+Questions
+How to rate a bug report?
+Answers
+It is up to the discretion of the triager to decide the rating for a bug report
+
+There is a rating of 0 - 5.
+0 - no detail
+5 - lots of data, date, time, version of s/w, details on what the user was doing etc..
+
+Question #10
+Category: Reputation
+Questions
+How should rating system work?
+Answers
+Rating system should be like this:
+-Developer fix is rated by the reviewer
+-Reporter bug report is rated by the triager.
+
+Question #11
+Category: Reputation
+Questions
+What criteria is there for reputation system?
+Answers
+There is a different reputation system for developer and bug reporter.
+There should be factors that are modifiable by super administrator to determine amount of reputation to give, based on those factors.
+Amount of reputation is automatically given based on values set for those factors.
+There should not be negative reputation by default. However, it should be possible if super administrator wants it.
+
+Question #12
+Category: Report Generation
+Questions
+Who can access the statistical reports? 
+Answers
+Bug report can be accessed by any user, even the public, that is if a report is to be shown in a publicly accessible place.
+It should show the stats of the bug tracking software and should be displayed on the web page if possible.
+
+Question #13
+Category: Report Generation
+Questions
+How should the report be represented? Pdf? Web page? etc..
+Answers
+It can be any, but the most desired one is on the web page and real time. Also, the minimum requirement of this report is that it is analytical, that is, it has had some processing applied to the data which makes the data meaningful. For example, bugs reported per week,
+
+Question #14
+Category: Report Generation
+Questions
+Where should statistical reports be generated in the website, and what is the interval between updates?
+Answers
+Report generation can be displayed in user profile, or in different locations.
+It should update automatically in intervals, preferably 1 hour interval.
+It should also display live data and showing data in graphs is preferred.
+
+Question #15
+Category: Database
+Questions
+Where can we obtain a list of users for the system?
+Answers
+There is a challenge in extracting the user list from xml data.
+Password and email are not provided in the xml file.
+Roles are not provided in the xml file.
+

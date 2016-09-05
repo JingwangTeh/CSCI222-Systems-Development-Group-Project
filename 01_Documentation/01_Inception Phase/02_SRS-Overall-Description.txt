@@ -1,0 +1,84 @@
+2.2 OVERALL DESCRIPTION
+2.2.1 PRODUCT PERSPECTIVE
+Currently, there are organizations with various software products, which all have the potential to introduce bugs that could simply be an easy-to-fix nuisance or it could be something critical to the core operations of the system itself. However, not many organizations consider the need to implement a way to track and manage bugs related to their system, 
+
+Therefore, it has come to a point where the need for a bug tracking system for any organization focused on software products, whether it be a start-up or a medium-sized organization, is necessary in order to effectively assist them in managing bugs to maintain their software product, as it would be more beneficial and cost saving in the long run.
+
+Our bug tracking systems aims to provide a solution that is cost efficient and also contain functionality of a bug tracking system without the dependency on software product type, or organizational size.
+
+2.2.1.1 SYSTEM INTERFACES
+Our bug tracking system is to be developed as a web-based application that can be to run at localhost to provide bug related services.
+ 
+The clients can log into the system from the PC which also act as a server and then interact with the system and provides basic services such as login, and search, as well as bug life cycle related services, like reporting bugs, commenting, triaging bugs, fixing bugs and reviewing bugs. Administrator functionalities are also accessible as long as the account is in administrator user group.
+ 
+The Web Server also runs in the same PC, which is accessible by the client. The client can login to the web server, where the server can accept http requests, query the system database, then return and display the corresponding web page back, according to the client’s requirements.
+ 
+The database in the same PC, is used to store the system’s user profiles and the bugs’ information.
+
+2.2.1.2 USER INTERFACES
+The user interfaces provided to client will be a series of web pages. The homepage is straightforward and minimalistic, with a search bar for searching bugs in the middle of the web page and the navigation bar at the top. Users could login, navigate to the other web pages by clicking on the icon in the navigation bar.
+ 
+The administrator can also login into the system via the web page like other users but have higher access to the system. The login page for the administrator will be different compared to the login page of a normal user. It will display a table which contains a list of users and their general profile information associated with it for the administrator to better manage the site’s user base.
+
+The database we use is MySQL, and all accesses to the database is performed through GUIs provided by the system. 
+
+2.2.1.3 HARDWARE INTERFACES
+All components of the bug tracking system should be executable using a personal computer with web functionality as the interface.
+
+2.2.1.4 SOFTWARE INTERFACES
+2.2.1.4.1 USER INTERFACE
+The user interacts with the bug tracking system through the use of a web browser.
+The system should support Google Chrome 52.0.2743.116 or above.
+
+2.2.1.5 COMMUNICATION INTERFACES
+Both the web server and the database server should be located in the same PC.
+
+2.2.1.6 OPERATIONS
+The bug reporting functions should be easy for all users to use, as long as they have basic knowledge on using the Web Browser, and no extra software or tools should be required.
+
+The web server should be easy to manage, and maintenance should not be required from the client as only the technicians who developed the system are required to maintain it.
+
+The database should be able to import the data provided by the client.
+
+2.2.2 PRODUCT FUNCTIONS
+The two main function of the bug tracking system is to allow users to submit bug reports for tracking, and provide support for the management of bug life cycle from the start to the end.
+
+For public users, the bug tracking system provides basic functionality accessible by the public through the following basic functions:
+Browse bug reports. Each bug report is separated in its own category, which can be browsed individually.
+Search bug reports. Bug reports can be searched with keywords, such as bug report name and category.
+View statistical reports. Statistical report highlights the performance of bug reporters and developers in terms of bug reports being solved through the system.
+
+For bug reporters, the system helps them to report bugs and contribute to bug reports through the following functions:
+Submit bug report.
+Commenting on bug report. 
+Earn reputation by submitting good bug reports.
+
+For triagers, developers, and reviewers, the system helps them to participate in managing bug reports from the creation of the bug report to its closing, through the following function:
+Bug report assignment. Triagers can assign bug reports to developers in order to focus on the bug that needs to be solved.
+Developer comments. Developers can contribute to bug reports through the use of comments in bug reports, in regards to the progress of the bug being fixed.
+Bug report reassignment or closure. This allows reviewer to determine the status of the bug, whether to reassign it as it was not solved, or close it as it has been solved.
+
+Lastly, the various user groups in the system is managed by the administrator through the following functions:
+Create user accounts
+Change user roles. This allows the user administrator to assign the user to various roles, such as triager, developer, and reviewer.
+Deactivate user account.
+
+All functionalities are included based on the business needs of a bug tracking system, to allow a more convenient way of tracking bugs through bug reports and managing bug life cycle.
+
+2.2.3 USER CHARACTERISTICS
+Bug Reporters are people who uses their system and have enough understanding of the bug at hand to produce a bug report.
+Triagers know the developer teams that are available and have the technical expertise to determine the characteristics of a bug report, which allows better management of bug reports, and assigning them to the correct developer to solve the bug report at hand.
+Developers are knowledgeable in the structure of their own system and are capable of producing a fix according to the bug report given.
+Reviewers are aware of both the triager and developer in the company, are knowledgeable of the system components, and capable of isolating system tests according to bug reports.
+Administrators have higher responsibility and also are knowledgeable about the company’s human resources and are capable of managing their system profiles by assigning the appropriate roles to the staff.
+
+2.2.4 CONSTRAINTS
+The system should strictly be implemented according to the constraints as specified below:
+Account Authentication: All bug reporting and bug management should be done through a registered account.
+Access Control: Each type of user should only have access to the appropriate interface associated with the tasks that they are allowed to do, for example, only the administrators can change the role of a user.
+Programming Language: The system should only be developed using an Object-oriented language, such as C++ or Java.
+Database and Web Server Location: The system database and web server should be implemented and stored locally in the same computer.
+The system must be developed before week 13 of Spring 2016 session.
+
+2.2.5 ASSUMPTIONS AND DEPENDENCIES
+All potential users of the bug tracking system have an email address, and have access to a computer with web capabilities to access the website.
