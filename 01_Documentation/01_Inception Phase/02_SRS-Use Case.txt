@@ -1,0 +1,432 @@
+2.3.3 USE-CASE SPECIFICATIONS
+2.3.3.1 Public User and Bug Reporter
+
+Use case: #UC_1
+
+Description
+The public user only have the read-only permission in our system. The Bug Reporter have the lowest permission level of the registered user in our system. It is inherited by the Triager, Developer, Reviewer. They have different permissions in other system for particular duties. The administrator is responsible for maintaining the system
+
+Name: Register
+ID: #PUBLIC_1
+Stakeholders and goals: Allow public user to sign-up to the system
+Description: Public user can sign-up to the system
+Actors: Public user
+Triggers: Public user want to sign-up to the system
+Normal flow: 
+Click “Sign-up” on the top right corner
+System prompt user input his username, email address and password
+User provides username, email address, and password
+System verifies the information
+Done
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: View profile
+ID: #PUBLIC_2
+Stakeholders and goals: Allow public user to view user profile
+Description:  Public user can view user’s profile
+Actors: Public user
+Triggers: Public user want to view user’s profile
+Normal flow: 
+Search user name
+Click the user’s username in the user list
+View user profile
+Done
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Browse bug reports
+ID: #PUBLIC_3
+Stakeholders and goals: Allow public user to browse the bug 
+Description:  Public user can browse the bug 
+Actors: Public user
+Triggers: Public user want to browse bug 
+Normal flow: 
+Click “Browse” on the top menu
+View the list of the result
+Done
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Search bug
+ID: #PUBLIC_4
+Stakeholders and goals: Allow public user to search bug 
+Description:  Public user can search for specific bug by keywords
+Actors: Public user
+Triggers: Public user want to search for specific bug 
+Normal flow: 
+Input keywords in the search bar then click “Search” button
+System returns the related results
+Done 
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: View the statistical reports
+ID: #PUBLIC_5
+Stakeholders and goals: Allow any user to view the statistical reports 
+Description:  Any user can view the statistical reports, its include the number of bugs solved per week and the best performed reporters and the developer
+Actors: Any user
+Triggers: User want to view the statistical reports
+Normal flow: 
+Click “View statistical”
+View the statistic
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Log in
+ID: #REPORT_1
+Stakeholders and goals: Allow registered user to login to the system
+Description: Registered user can login to the system
+Actors: Registered user
+Triggers: Registered user want to login to the system
+Normal flow: 
+Click “Login”
+System prompt user to input username and password
+System verifies username and password
+Done 
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: View profile
+ID: #REPORT_2
+Stakeholders and goals: Allow user to view user profile
+Description: User can view user’s profile
+Actors: Registered user
+Triggers: Registered user want to view user’s profile
+Normal flow: 
+Click [username] on the top right corner ( For his own profile)
+Done
+
+Sub-flows: N/A
+Alternative flow: ( View others profile)
+Search user name
+Click the user’s username in the user list
+Done
+
+Name: Edit profile
+ID: #REPORT_3
+Stakeholders and goals: Allow user to edit his own profile
+Description: User can edit his own profile
+Actors: Registered user
+Triggers: Registered user want to edit his own profile
+Normal flow: 
+Click [username] on the top right corner
+Edit profile
+User confirm
+System verifies data of the user’s input
+Done
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Comment on bug
+ID: #REPORT_4
+Stakeholders and goals: Allow registered user to comment on bug 
+Description:  Registered user can comment on a bug
+Actors: Registered user
+Triggers: Registered user want to comment on a bug 
+Normal flow: 
+Search for bug
+Comment on bug
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Report bug
+ID: #REPORT_5
+Stakeholders and goals: Allow registered user to report bug 
+Description:  Registered user can report bug
+Actors: Registered user
+Triggers: Registered user want to report a bug 
+Normal flow: 
+Click “New bug”
+User fill in the form
+Title
+Code / file
+Submit
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Logout
+ID: #REPORT_6
+Stakeholders and goals: Allow registered user to logout from the system 
+Description:  Registered user can logout from the system
+Actors: Registered user
+Triggers: Registered user want to logout from the system
+Normal flow: 
+Click “Logout” on the top right corner
+Done
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+2.3.3.2 Triager 
+
+Use case: #UC_2
+
+Description
+The Triager is responsible for managing all quality aspects of a bug. His duty is to assign the bug to a suitable developer for solving it. Checking if the bug is duplicated or invalid.
+
+Name: Receive Unsolved bug
+ID: #TRIAGER_1
+Stakeholders and goals: Allow triager to receive the unsolved bug
+Description: Triager can receive the unsolved bug that returned by the reviewer
+Actors: Triager
+Triggers: Triager wants to receive the unsolved bug
+Normal flow: 
+Check “Receive unsolved bug”
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Manage bug 
+ID: #TRIAGER_2
+Stakeholders and goals: Allow triager to manage the quality of the submitted bug
+Description: Triager can manage the quality aspects of the bug such checking if it is a duplicate or invalid bug
+Actors: Triager
+Triggers: When triager going to manage the quality aspect of a bug
+Normal flow: 
+View bug information from received bug
+Check the quality of the bug reported by the reporter (see sub-flows 1. 2.)
+Check the quality aspect of the bug (see sub-flows 3. 4.)
+
+Sub-flows: 
+If the reporter report a “good” bug
+More reputation giving to the reporter by the system
+If the reporter report a “bad” bug
+Less reputation giving to the reporter by the system
+Check whether the bug is invalid or not
+Check whether the bug is duplicated or not
+
+Alternative/Exceptional flows: N/A
+
+Name: Merge duplicate bug 
+ID: #TRIAGER_3
+Stakeholders and goals: Allow triager to merge the bug
+Description: Triager can merge the duplicated bug
+Actors: Triager
+Triggers: When triager going to merge the bug
+Normal flow: 
+Check which bug are duplicated with
+Merge the bug
+
+Sub-flows: 
+Alternative/Exceptional flows: N/A
+
+Name: Review reported bug
+ID: #TRIAGER_4
+Stakeholders and goals: Allow triager to review the reported bug
+Description: Triager can review the reported bug and add technical information to it
+Actors: Triager
+Triggers: When triager going to review the reported bug
+Normal flow:
+Review the bug that are reported by the bug reporter
+Add technical information according to the bug
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Assigning bug
+ID: #TRIAGER_5
+Stakeholders and goals: Allow triager to assign the bug to a developer
+Description: Triager can assign the bug to a developer to fix it
+Actors: Triager
+Triggers: When triager going to assign the bug to a developer
+Normal flow:
+Choose developers to assign to
+System will update the bug status to “Accepted” when the developer accepted to fixed the bug
+Assign
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+2.3.3.3 Developer
+
+Use case: #UC_3
+Description
+The developers are responsible for fixing bugs that are assigned to them by a triager.
+
+
+Name: Receive bug
+ID: #DEVELOP_1
+Stakeholders and goals: Allow the developer to receive the bug
+Description: The developer can upload the code to the system 
+Actors: Developer
+Triggers: When the developer going to receive the bug
+Normal flow: 
+Receive the bug that was forwarded by the triager
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Attach patch on comment
+ID: #DEVELOP_2
+Stakeholders and goals: Allow the developer to attach the patch on the comment
+Description: The developer can attach the code on the comment
+Actors: Developer
+Triggers: When the developer wants to upload the code
+Normal flow: 
+Upload the patch as an attachment on the comment
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Forward patch for review
+ID: #DEVELOP_3
+Stakeholders and goals: Allow the developer to forward the patch
+Description: The developer can forward the patch to the reviewer
+Actors: Developer
+Triggers: When the developer wants to forward the patch
+Normal flow: 
+Select the reviewer
+Forward the patch
+Done
+
+Sub-flows: 
+The system will update the patch status to “Under review”
+
+Alternative/Exceptional flows: N/A
+
+2.3.3.4 Reviewers
+
+Use case: #UC_4
+Description
+The Reviewers are responsible for checking to see if a bug has been fixed with the patch provided by the developer.
+
+Name: Review patch
+ID: #REVIEW_1
+Stakeholders and goals: Reviewer can check the bug status
+Description: Reviewer can check the bug to see whether it has been solved or not
+Actors: Reviewer
+Triggers: When the reviewer checks the bug status
+Normal flow: 
+Check the patch
+Check whether the bug have been fixed or not
+
+Sub-flows: 
+If the bug has been fixed
+Update the bug status to solved
+Increase the reputation of the developer by the system
+If the bug have not been fixed
+Decrease the reputation of the developer by the system
+Transfer the patch to the triager for further action
+
+Alternative/Exceptional flows: ...
+
+2.3.3.5 Administrator
+
+Use case: #UC_5
+
+Description
+The administrator has the highest permissions in accessing the system. They are responsible for maintaining the system.
+
+Name: Deactivate/Activate User
+ID: #ADMIN_1
+Stakeholders and goals: Deactivate or activate user
+Description: Administrator can deactivate or activate user’s account so that the corresponding user will be no longer be able to login / will be able to login
+Actors: Administrator
+Triggers: If the admin wants to deactivate or activate a user’s account
+Normal flow: 
+Log in
+System verifies username and password.
+Search for user (Directly type in user’s name / search from user list) 
+Go into user profile
+Deactivate or activate user
+Confirm
+Done
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Create user account
+ID: #ADMIN_2
+Stakeholders and goals: Create user
+Description: Administrator can create a user
+Actors: Administrator
+Triggers: If the admin wants to create a user
+Normal flow: 
+Log in
+System verifies username and password.
+Click “Create user”
+Type in account information
+Assign role
+Confirm
+Done
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Change user’s role
+ID: #ADMIN_3
+Stakeholders and goals: To change a user’s role
+Description: Administrator can change a user’s role
+Actors: Administrator
+Triggers: If the admin wants to change the user’s role
+Normal flow: 
+Log in
+System verifies username and password.
+Search for user (Directly type in user’s name / search from user list)  
+Go into user’s profile
+Click “Change role”
+Choose role
+Confirm
+Done
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: View user list
+ID: #ADMIN_4
+Stakeholders and goals: To view the user list
+Description: Administrator can change user’s role
+Actors: Administrator
+Triggers: If the admin wants to view the user list
+Normal flow: 
+Log in
+System verifies username and password.
+Click “View user”
+Admin can select a user from the list
+Done
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Track assigned work
+ID: #ADMIN_5
+Stakeholders and goals: To track the assigned work and status
+Description: Administrator can track the work that is assigned to each developer, and check the status of it.
+Actors: Administrator
+Triggers: If admin wants to track the work assigned
+Normal flow: 
+Log in
+System verifies username and password.
+Click “Track work”
+View the list
+Done
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
+Name: Change factor of reputation
+ID: #ADMIN_6
+Stakeholders and goals: To change the factor of reputation
+Description: Administrator can change the factor of the reputation which are given by the system
+Actors: Administrator
+Triggers: If admin wants to change the factor
+Normal flow: 
+Log in
+System verifies username and password.
+Click “Change factor”
+Change the factor
+Done
+
+Sub-flows: N/A
+Alternative/Exceptional flows: N/A
+
