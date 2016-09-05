@@ -1,0 +1,33 @@
+performance
+-system uptime? 24/7? maintenance?
+-response time (login,...etc...)
+--login : how many seconds before timeout
+--user error feedback <? seconds
+-search efficiency (search results)
+-live report generation every hour
+-number of profiles stored in database
+-number of bug reports
+-types of formats supported by bug reports?
+
+usability
+-interface consistency
+-register: how many pages? all info in one page?
+-online documentation
+-skills required for public user: none (only computer literate)
+--how much time do they need to adapt to system interface?
+--what about bug reporters/triagers/developers/reviewers/user admin?
+  (how long do they need to learn the system?)
+-GUI in english
+-follow w3c standards (web app)
+
+reliability
+-failure recovery? how fast?
+-concurrent users? 50
+
+security
+-logout timer
+
+
+-authentication
+-password need not be hashed but can do so
+
