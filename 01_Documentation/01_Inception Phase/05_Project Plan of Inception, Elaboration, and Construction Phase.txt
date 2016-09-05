@@ -7,13 +7,12 @@ A Complete and Detailed Software Requirement Specification consisting of Functio
 A Complete and Detailed Domain Model
 A Complete and Detailed Project Cost and Schedule
 A Complete and Detailed Risks and Countermeasures
-A Complete and Detailed Candidate Architecture
 A Complete and Detailed Project Plan of Inception, Elaboration, and Construction Phase
 ELABORATION PHASE
 In this phase, the system architecture of the project is revised, validated and established. The existing use case is refined and class diagrams, sequence diagrams, and interaction diagrams are created to support the use case. Interface and Database designs are also created. Finally, a more detailed construction plan is produced.
 
 The outcome of the elaboration phase should include:
-A Revised System Architecture
+System Architecture
 Class Diagram
 Sequence Diagram
 Interaction Diagram
