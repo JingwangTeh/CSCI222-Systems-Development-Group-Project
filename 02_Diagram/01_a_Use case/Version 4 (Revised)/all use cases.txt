@@ -1,0 +1,25 @@
+#PUB_1 - Register
+#PUB_2 - View Profile
+#PUB_3 - Browse Bug
+#PUB_4 - Search Bug
+#PUB_5 - View Website Statistical Report
+#RPT_1 - Login
+#RPT_2 - Logout
+#RPT_3 - Report Bug
+#RPT_4 - Subscribe to Bug
+#RPT_5 - Comment on Bug
+#TRG_1 - View Newly Reported Bug
+#TRG_2 - View Unsolved Bug Transferred from Reviewer
+#TRG_3 - Assess Bug
+#TRG_4 - Assign Bug to Developer
+#DEV_1 - View Assigned Bug
+#DEV_2 - Attach Patch to Comment
+#RVW_1 - Review Attached Patch
+#ADM_1 - Create User Accounts
+#ADM_2 - View User List
+#ADM_3 - Deactivate/Activate User Accounts
+#ADM_4 - Change User Account Role
+#ADM_5 - View User Assigned Work
+#ADM_6 - Track User Assigned Work
+#ADM_7 - View Tracked Work
+#ADM_8 - Change Reputation Factors

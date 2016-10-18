@@ -1,0 +1,7 @@
+For this bug track system, the client required us to use either C++ or Java for implementation, consider the maintainability and convenience to set up the system, we choose use Java as the coding language.
+ 
+As for the code steady, we will use some framework in Java to develop the system. The framework we will use are Spring and Hibernate.
+ 
+Spring framework is used for the web layer. In other word Spring is responsible for the fort-end.
+
+Hibernate framework is used for the database layer. It is used to handle the request from the frontend, and go through the database to make response according to the request. s
