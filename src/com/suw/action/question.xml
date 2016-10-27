@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	
+	<package name="question" namespace="/question" extends="struts-default">  
+	 	<action name="scan" class="com.suw.action.QuestionAction" method="scan">
+	 		<result name="success">/question.jsp</result>
+	 		<result name="false">/index.jsp</result>
+	 	</action>
+	 	<action name="addAnswer" class="com.suw.action.QuestionAction" method="addAnswer">
+	 		<result name="success" >/jump.jsp</result>
+	 		<result name="false" type="redirect" >/index.jsp</result>
+	 	</action>
+	 	<action name="addQuestion" class="com.suw.action.QuestionAction" method="add">
+	 		<result name="success">/index.jsp</result>
+	 	</action>
+	 	<action name="search" class="com.suw.action.QuestionAction" method="search">
+	 		<result name="success" >/search.jsp</result>
+	 	</action>
+	 	<action name="acceptAnswer" class="com.suw.action.QuestionAction" method="acceptAnswer">
+	 		<result name="success" >/jump.jsp</result>
+	 	</action>
+	 	<action name="hidden" class="com.suw.action.QuestionAction" method="hidden">
+	 		<result name="success" >/index.jsp</result>
+	 	</action>
+	 	<action name="repeat" class="com.suw.action.QuestionAction" method="repeat">
+	 		<result name="success" >/index.jsp</result>
+	 	</action>
+	 </package>
+	 
+</struts>

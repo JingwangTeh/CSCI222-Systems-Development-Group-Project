@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+	
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.action.extension" value="action" />
+	<constant name="struts.serve.static.browserCache" value="false" />
+		 
+	 
+	<include file="./com/suw/action/user.xml" />
+	<include file="./com/suw/action/userAjax.xml" />
+	<include file="./com/suw/action/question.xml" />
+	<include file="./com/suw/action/questionAjax.xml" />
+	<include file="./com/suw/action/target.xml" />
+	<include file="./com/suw/action/comment.xml" />
+	<include file="./com/suw/action/answerAjax.xml" />
+	<include file="./com/suw/action/answer.xml" />
+	<include file="./com/suw/action/user2.xml" />
+	<include file="./com/suw/action/user2Ajax.xml" />
+	<include file="./com/suw/action/BugAjax.xml" />
+	<include file="./com/suw/action/bug.xml" />
+	<include file="./com/suw/action/comments.xml" />
+	<include file="./com/suw/action/commentsAjax.xml" />
+</struts> 
