@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- 动态调用：在访问该action时，附带上调用方法。如：／user/helloWord_default!addUI,则会调用addUI方法，而不是hello world方法 -->
+	<!-- struts.enable.DynamicMethodInvocation 将该常量设置为 false 时，将静止动态调用 -->
+	
+	
+	<package name="user2" namespace="/user2" extends="struts-default">
+	 	<action name="signup" class="com.suw.action.User2Action" method="signup">
+	 		<result name="success" type="redirect">/home.jsp</result>
+	 		<result name="false" type="redirect" >/home.jsp</result>
+	 		
+	 		
+	 	</action>
+	 	<action name="login" class="com.suw.action.User2Action" method="login">
+	 		<result name="success" type="redirect" >/home.jsp</result>
+	 		<result name="false" type="redirect">/home.jsp</result>
+	 		<result name="question" >/jump.jsp</result>
+	 		
+	 	</action>
+	 	<action name="add" class="com.suw.action.User2Action" method="add">
+	 		<result name="success" type="redirect" >/addUser.jsp</result>
+	 		
+	 	</action>
+	 	<action name="logout" class="com.suw.action.User2Action" method="logout">
+	 		<result name="success" type="redirect" >/home.jsp</result>
+	 		<result name="false" type="redirect">/home.jsp</result>
+	 		<result name="question" >/jump.jsp</result>
+	 		
+	 	</action>
+	 	
+	 	<action name="detail" class="com.suw.action.User2Action" method="detail">	 		
+	 		<result name="success" type="redirect" >/userdetail.jsp</result>
+	 		<result name="admin" type="redirect">/adminHome.jsp</result>
+	 		<result name="developer" type="redirect">/deveHome.jsp</result>
+	 		<result name="receiver" type="redirect">/receiverHome.jsp</result>
+	 		<result name="triager" type="redirect">/triagerHome.jsp</result>
+	 		<result name="false" type="redirect">/home.jsp</result>
+	 		<result name="question" >/jump.jsp</result>
+	 		
+	 	</action>
+	 	
+	 	<action name="modify" class="com.suw.action.User2Action" method="modify">
+	 		<result name="success" type="redirect" >/adminHome.jsp</result>
+	 		<result name="false" type="redirect">/home.jsp</result>	 		
+	 	</action>
+	 </package>
+	 
+</struts>
